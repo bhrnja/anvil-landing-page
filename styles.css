@@ -9,7 +9,7 @@ body {
     font-family: "Kanit", Helvetica, Arial, system-ui, sans-serif;
     font-size: 1.125rem;
     line-height: 1.6;
-    margin-inline: 5rem;
+    margin-inline: 5em;
     background-color: #271123;
     color: #ffffff
 }
@@ -33,12 +33,21 @@ ul a {
     color: #ffffff;
 }
 
+ul a:hover {
+    color: #c9c9c9;
+}
+
 h1 {
     font-size: 3rem;
     line-height: 1;
 }
 
 /* Specific Selections */
+
+.box {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
 .flex {
     display: flex;
@@ -61,6 +70,14 @@ h1 {
     align-items: center;
 }
 
+.p-center {
+    justify-content: center;
+}
+
+.c-center {
+    align-items: center;
+}
+
 .main-button {
     font-family: "Kanit", Helvetica, Arial, system-ui, sans-serif;
     font-size: 1.125rem;
@@ -71,17 +88,29 @@ h1 {
     color: #271123;
 }
 
-.logo {
-    max-width: 50%;
+div > .logo {
+    width: 200px;
+    height: auto;
 }
 
 .navbar {
     align-items: center;
     justify-content: space-between;
-    padding: 8px;
+    gap: 1.5rem;
 }
 
-div > ul {
+.menu > ul {
     display: flex;
     gap: 1.125rem;
+}
+
+.content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.image {
+    flex: 2;
+    max-width: 800px;
+    min-width: 500px;
 }
