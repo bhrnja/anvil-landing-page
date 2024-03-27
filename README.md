@@ -1,4 +1,4 @@
-# anvil-landing-page
+# Anvil Co. Landing Page
 
 ## Landing page project for the Anvil Company.
 
