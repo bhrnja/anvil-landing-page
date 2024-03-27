@@ -81,6 +81,7 @@ h1 {
     padding: 8px;
 }
 
-.menu {
+div > ul {
+    display: flex;
     gap: 1.125rem;
 }
