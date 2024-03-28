@@ -8,14 +8,18 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 body {
     font-family: "Kanit", Helvetica, Arial, system-ui, sans-serif;
     font-size: 1.125rem;
     line-height: 1.6;
-    margin-inline: 5em;
+    margin-inline: 4rem;
     background-color: #271123;
     color: #ffffff
+}
+
+nav {
+    position: sticky; top: 0;
 }
 
 img {
@@ -38,7 +42,9 @@ ul a {
 }
 
 ul a:hover {
-    color: #c9c9c9;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
 }
 
 h1 {
@@ -92,9 +98,17 @@ h1 {
     color: #271123;
 }
 
+.main-button:hover {
+    transform: scale(1.1);
+}
+
 div > .logo {
     width: 200px;
     height: auto;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .navbar {
@@ -118,3 +132,17 @@ div > .logo {
     max-width: 800px;
     min-width: 500px;
 }
+
+.color {
+    color: #271123;
+}
+
+.background {
+    background-color: #ffffff;
+}
+
+.full-width {
+    box-shadow: 0 0 0 100vmax #ffffff;
+    clip-path: inset(0 -100vmax);
+}
+
