@@ -96,6 +96,11 @@ p {
     justify-content: space-evenly;
 }
 
+.padding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .main-button {
     font-family: "Kanit", Helvetica, Arial, system-ui, sans-serif;
     font-size: 1.125rem;
@@ -156,10 +161,14 @@ div > .logo {
     clip-path: inset(0 -100vmax);
 }
 
+.full-width-alt {
+    box-shadow: 0 0 0 100vmax #271123;
+    clip-path: inset(0 -100vmax);
+}
+
 .item {
     flex: 1;
     max-width: 300px;
-    margin-bottom: 3rem;
 }
 
 .item > img {
@@ -177,6 +186,5 @@ div > .logo {
 }
 
 .gap {
-    gap: 5rem;
+    gap: 50px;
 }
-
