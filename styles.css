@@ -165,7 +165,7 @@ div > .logo {
 .item > img {
     border: 5px solid #271123;
     border-radius: 2.0rem;
-    padding: 8px 8px 0 8px;
+    padding: 8px 0 0 0;
 }
 
 .item > p {
