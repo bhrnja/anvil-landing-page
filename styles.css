@@ -19,6 +19,7 @@ body {
 
 nav {
     position: sticky; top: 0;
+    z-index: 1;
 }
 
 img {
@@ -148,8 +149,12 @@ div > .logo {
     min-width: 500px;
 }
 
-.color {
+.color h2 {
     color: #271123;
+}
+
+.color-alt {
+    color: #ffffff;
 }
 
 .background {
@@ -191,4 +196,20 @@ div > .logo {
 
 .gap {
     gap: 50px;
+}
+
+.basis {
+    flex: 0;
+    padding: 0 20px;
+}
+
+.quote {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 200;
+}
+
+.client {
+    font-size: 30px;
+    text-align: right;
 }
