@@ -171,6 +171,10 @@ div > .logo {
     max-width: 300px;
 }
 
+.item:hover {
+    transform: scale(1.1);
+}
+
 .item > img {
     border: 5px solid #271123;
     border-radius: 2.0rem;
