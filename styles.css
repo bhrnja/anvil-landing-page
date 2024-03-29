@@ -15,7 +15,6 @@ body {
     line-height: 1.6;
     margin-inline: 4rem;
     background-color: #271123;
-    color: #ffffff
 }
 
 nav {
@@ -50,6 +49,11 @@ ul a:hover {
 h1 {
     font-size: 3rem;
     line-height: 1;
+    color: #ffffff
+}
+
+p {
+    color: #ffffff
 }
 
 /* Specific Selections */
@@ -88,6 +92,10 @@ h1 {
     align-items: center;
 }
 
+.e-space {
+    justify-content: space-evenly;
+}
+
 .main-button {
     font-family: "Kanit", Helvetica, Arial, system-ui, sans-serif;
     font-size: 1.125rem;
@@ -115,6 +123,8 @@ div > .logo {
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
+    background-color: #271123;
+    padding: 20px 0 20px 0;
 }
 
 .menu > ul {
@@ -144,5 +154,29 @@ div > .logo {
 .full-width {
     box-shadow: 0 0 0 100vmax #ffffff;
     clip-path: inset(0 -100vmax);
+}
+
+.item {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 3rem;
+}
+
+.item > img {
+    border: 5px solid #271123;
+    border-radius: 2.0rem;
+    padding: 8px 8px 0 8px;
+}
+
+.item > p {
+    padding-inline-start: 20px;
+    color: #271123;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.gap {
+    gap: 5rem;
 }
 
